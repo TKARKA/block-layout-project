@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+#block-container {
+  display: grid;
+  grid-template-columns: repeat(13, 80px);
+  grid-template-rows: repeat(5, 80px);
+  gap: 5px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.block {
+  width: 80px;
+  height: 80px;
+  background-color: #4CAF50;
+  border: 2px solid #333;
+  border-radius: 5px;
+}
+
+.block-2x2 {
+  width: 160px;
+  height: 160px;
+  background-color: #2196F3;
+}
